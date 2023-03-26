@@ -24,10 +24,12 @@
                         </a>
                     </li>
                 @endforeach
+
+
             </ul>
         </div>
         <div class="col-md-6">
-            <video id="video-player" controls>
+            <video id="video-player" width="640" height="auto" controls>
                 <source src="" type="video/mp4">
                 Your browser does not support HTML5 video.
             </video>
